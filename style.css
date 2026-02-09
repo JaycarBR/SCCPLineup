@@ -37,7 +37,7 @@ header {
 #campo-wrapper {
   position: relative;
   width: 100%;
-  max-width: 900px; /* limite opcional para não ficar exagerado em telas grandes */
+  max-width: 900px;
 }
 
 #campo-wrapper img {
@@ -82,4 +82,40 @@ header {
   border-radius: 5px;
   cursor: grab;
   color: white;
+  transition: all 0.3s ease;
+}
+
+.jogador:hover {
+  background: #555;
+}
+
+/* --- Versão Mobile --- */
+@media (max-width: 768px) {
+  #app {
+    flex-direction: column; /* empilha tudo */
+  }
+
+  #campo {
+    flex: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #sidebar-esquerda, #sidebar-direita {
+    flex: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #lista-jogadores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .jogador {
+    flex: 1 1 40%;
+    margin: 5px;
+    text-align: center;
+  }
 }
