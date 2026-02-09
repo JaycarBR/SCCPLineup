@@ -71,6 +71,7 @@ header {
 .nome-jogador {
   margin-top: 4px;
   font-size: 12px;
+  font-weight: bold;
   color: white;
   text-align: center;
 }
