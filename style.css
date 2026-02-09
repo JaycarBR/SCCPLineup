@@ -102,6 +102,16 @@ header {
     margin-bottom: 20px;
   }
 
+  #campo-wrapper {
+    max-width: 100%;   /* libera largura total */
+  }
+
+#campo-wrapper img {
+    width: 100%;       /* ocupa toda a largura */
+    height: auto;      /* mantém proporção */
+    display: block;
+  }
+  
   #sidebar-esquerda, #sidebar-direita {
     flex: none;
     width: 100%;
