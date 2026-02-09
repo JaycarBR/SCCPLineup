@@ -101,17 +101,10 @@ header {
     margin-bottom: 20px;
   }
 
-  #campo-wrapper {
-    max-width: 100%; /* campo ocupa toda a largura */
-  }
-
   #sidebar-esquerda, #sidebar-direita {
     flex: none;
     width: 100%;
     margin-bottom: 10px;
-    background: transparent; /* remove faixa preta */
-    border: none;
-    padding: 10px;
   }
 
   #lista-jogadores {
@@ -124,16 +117,5 @@ header {
     flex: 1 1 40%;
     margin: 5px;
     text-align: center;
-    font-size: 14px;
-    padding: 12px;
-  }
-
-  select, button {
-    width: 90%;
-    margin: 5px auto;
-    display: block;
-    font-size: 16px;
-    padding: 10px;
-    border-radius: 5px;
   }
 }
