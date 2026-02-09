@@ -108,15 +108,10 @@ header {
   #sidebar-esquerda, #sidebar-direita {
     flex: none;
     width: 100%;
-    margin: 0 auto 10px auto;
+    margin-bottom: 10px;
     background: transparent; /* remove faixa preta */
     border: none;
-    padding: 0;
-  }
-
-  #sidebar-esquerda h2, #sidebar-direita h2 {
-    text-align: center;
-    margin-bottom: 10px;
+    padding: 10px;
   }
 
   #lista-jogadores {
@@ -129,8 +124,8 @@ header {
     flex: 1 1 40%;
     margin: 5px;
     text-align: center;
-    font-size: 14px; /* fonte maior para toque */
-    padding: 12px;   /* botão mais fácil de clicar */
+    font-size: 14px;
+    padding: 12px;
   }
 
   select, button {
