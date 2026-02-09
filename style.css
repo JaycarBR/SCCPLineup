@@ -101,9 +101,21 @@ header {
     margin-bottom: 20px;
   }
 
+  #campo-wrapper {
+    max-width: 100%; /* campo ocupa toda a largura */
+  }
+
   #sidebar-esquerda, #sidebar-direita {
     flex: none;
     width: 100%;
+    margin: 0 auto 10px auto;
+    background: transparent; /* remove faixa preta */
+    border: none;
+    padding: 0;
+  }
+
+  #sidebar-esquerda h2, #sidebar-direita h2 {
+    text-align: center;
     margin-bottom: 10px;
   }
 
@@ -117,5 +129,16 @@ header {
     flex: 1 1 40%;
     margin: 5px;
     text-align: center;
+    font-size: 14px; /* fonte maior para toque */
+    padding: 12px;   /* botão mais fácil de clicar */
+  }
+
+  select, button {
+    width: 90%;
+    margin: 5px auto;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
   }
 }
