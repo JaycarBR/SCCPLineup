@@ -1,0 +1,47 @@
+<head>
+  <meta charset="UTF-8">
+  <title>Formação de Futebol</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>SPORT CLUB CORINTHIANS PAULISTA</h1>
+  </header>
+
+  <div id="app">
+    <!-- Formação à esquerda -->
+    <div id="sidebar-esquerda">
+      <h2>Formação</h2>
+      <select id="formacao">
+        <option value="352">3-5-2</option>
+        <option value="41212">4-1-2-1-2</option>
+        <option value="4141">4-1-4-1</option>
+        <option value="433">4-2-3-1</option>
+        <option value="442">4-4-2</option>
+      </select>
+      <button id="aplicar">Aplicar Formação</button>
+    </div>
+
+    <!-- Campo no centro -->
+    <div id="campo">
+      <div id="campo-wrapper">
+        <img src="https://pbs.twimg.com/media/HAquB4AbgAAsvsy?format=png&name=900x900" alt="Campo de futebol">
+        <div id="posicoes"></div>
+      </div>
+    </div>
+
+    <!-- Lista de jogadores à direita -->
+    <div id="sidebar-direita">
+      <h2>Jogadores</h2>
+      <select id="categoria">
+        <option value="goleiros">Goleiros</option>
+        <option value="defensores">Defensores</option>
+        <option value="meias">Meias</option>
+        <option value="atacantes">Atacantes</option>
+      </select>
+      <div id="lista-jogadores"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
