@@ -115,14 +115,8 @@ header {
 
   .jogador {
     flex: 1 1 40%;
-    margin: 5px;
+    margin: 2px;
+    font-size: 10px;
     text-align: center;
   }
-    
-.nome-jogador {
-  margin-top: 1px;
-  font-size: 9px;
-  color: white;
-  text-align: center;
-}
 }
