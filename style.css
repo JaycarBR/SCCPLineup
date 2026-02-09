@@ -123,7 +123,6 @@ header {
   #campo-wrapper img {
     width: 100vw;
     height: 60vh;
-    object-fit: cover;
     display: block;
   }
 
