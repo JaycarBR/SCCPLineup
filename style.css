@@ -118,4 +118,10 @@ header {
     margin: 5px;
     text-align: center;
   }
+  
+  .nome-jogador {
+    margin-top: 2px;   /* reduz o espaço */
+    font-size: 10px;   /* texto menor para caber melhor */
+  }
+  
 }
