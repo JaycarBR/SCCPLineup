@@ -102,24 +102,25 @@ header {
     margin-bottom: 20px;
   }
 
- header {
-    max-width: 100%;   /* libera largura total */
-  }
-  
   #campo-wrapper {
-    max-width: 100%;   /* libera largura total */
+    max-width: 100%;
+    height: auto;
   }
 
-#campo-wrapper img {
-    width: 100%;       /* ocupa toda a largura */
-    height: auto;      /* mantém proporção */
+  #campo-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* corta excesso e elimina faixas pretas */
     display: block;
   }
-  
+
   #sidebar-esquerda, #sidebar-direita {
     flex: none;
     width: 100%;
     margin-bottom: 10px;
+    background: transparent; /* remove fundo preto extra */
+    border: none;
+    padding: 10px;
   }
 
   #lista-jogadores {
