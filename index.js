@@ -59,11 +59,6 @@ function popularCampoInicial(coords) {
       nomes[index].textContent = nome;
     }
   });
-
-  // Remove jogadores iniciais das listas de categoria
-  Object.keys(jogadoresPorCategoria).forEach(categoria => {
-    jogadoresPorCategoria[categoria] = jogadoresPorCategoria[categoria].filter(nome => !jogadoresIniciais.includes(nome));
-  });
 }
 
 function criarPosicoes(coords) {
